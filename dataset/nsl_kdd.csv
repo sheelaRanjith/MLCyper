@@ -1,0 +1,11 @@
+duration,protocol_type,service,src_bytes,dst_bytes,count,srv_count,logged_in,wrong_fragment,label
+0,tcp,http,181,5450,2,2,1,0,normal
+0,udp,domain_u,239,486,3,3,0,0,normal
+0,tcp,private,0,0,121,19,0,0,neptune
+0,tcp,http,235,1337,5,5,1,0,normal
+0,tcp,ftp_data,12983,0,1,1,0,0,guess_passwd
+0,tcp,eco_i,0,0,89,10,0,0,smurf
+2,tcp,private,0,0,100,20,0,0,back
+0,tcp,http,300,2000,2,2,1,0,normal
+0,tcp,private,0,0,75,15,0,0,satan
+3,tcp,telnet,0,52,4,2,0,0,buffer_overflow
